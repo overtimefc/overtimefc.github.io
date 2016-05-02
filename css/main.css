@@ -1,0 +1,19 @@
+.callout.primary {
+	background-color: black;
+	color: #ffffff;
+	text-align: center;
+}
+
+.callout.primary h1{
+	letter-spacing: 1em;
+}
+
+.lead {
+	letter-spacing: .2em;
+	font-style: italic;
+}
+
+.off-canvas {
+	background-color: #000000;
+	color: #ffffff
+}
