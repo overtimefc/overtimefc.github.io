@@ -11,9 +11,164 @@
 .lead {
 	letter-spacing: .2em;
 	font-style: italic;
+	color: #fff;
 }
 
 .off-canvas {
 	background-color: #000000;
 	color: #ffffff
+}
+
+#est h5{
+	text-align: center;
+	font-size: .8rem;
+}
+
+#social {
+	list-style-type: none;
+	float: right;
+
+}
+
+#social li {
+	display: inline-block;
+	margin-right: .5em;
+}
+
+#social a {
+	color: #000;
+}
+
+#social a:hover {
+	text-decoration: line-through;
+}
+
+
+
+.menu {
+	color: #ffffff;
+	background-color: #000000;
+}
+
+.top-bar ul {
+	background-color: #000;
+}
+
+.top-bar {
+	background-color: #000;
+}
+
+
+.menu-text {
+	background-color: #000;
+	color: #000;
+}
+
+.menu li a {
+	background-color: #000;
+	color: #fff; 
+	font-weight: bold;
+	padding: .7rem 3rem;
+	font-size: 1.5rem;
+
+}
+
+.menu li a:hover {
+	text-decoration: line-through;
+	background-color: #333333;
+	font-weight: bold;
+}
+
+#mail {
+	padding: 0 1rem;
+}
+
+#mail a {
+	color: #5c5c5c;
+}
+
+#contact {
+	padding: 0 1rem
+}
+
+.top-bar hr {
+	margin-top: 0;
+}
+
+#nav {
+	padding-left: 4rem;
+	padding-right: 4rem;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+}
+
+p {
+	color: #5c5c5c;
+}
+
+@keyframes slider {     
+  0% { left: 0; opacity: 0; }     
+  2% { opacity: 1; }     
+  20% { left: 0; opacity: 1; }     
+  21% { opacity: 0; }     
+  24% { opacity: 0; }     
+  25% { left: 100%; opacity: 1; }     
+  45% { left: -100%; opacity: 1; }     
+  46% { opacity: 0; }     
+  48% { opacity: 0; }     
+  50% { left: -50%; opacity: 1; }     70% { left: -70%; opacity: 1; }     72% { opacity: 0; }     
+  74% { opacity: 0; }    
+  75% { left: -75%; opacity: 1; }   	
+  95% { left: -95%; opacity: 1; }   	
+  97%  { left: -97%; opacity: 0; }   	
+  100% { left: 0; opacity: 0; }
+} 
+
+body { background: #000; } 
+
+div#slidercontainer { 
+  position: relative; 
+  overflow: hidden; 
+  background: #000 
+}
+div#slidercontainer { 
+  width: 100%;
+  height: 641px; 
+  margin: auto;
+}
+
+div#sider img { 
+  width: 100%;
+  height: 641px; 
+  float: left;
+}
+
+div#css3slider { 
+  position: absolute; 
+  width:100%;  
+  animation-name:slider;
+  animation-duration:30s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count:infinite;
+}
+
+div#css3slider:hover { 
+  animation-play-state:paused; }
+}
+
+div#css3slider img { 
+  float: right; 
+}
+
+div#slidercontainer:after { 
+  font-size: 150px; 
+  position: absolute; 
+  z-index: 12; 
+  color: rgba(255,255,255, 0); 
+  left: 300px; top: 80px; 
+  transition: .5s all ease-in-out; 
+}
+
+div#slidercontainer:hover:after { 
+  color: rgba(255,255,255, 0.6);  
 }
